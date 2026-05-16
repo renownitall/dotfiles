@@ -1,0 +1,49 @@
+status is-interactive; or return
+
+function abbrx --description "Define an abbreviation if a command exists" --argument-names short cmd
+    type -q -- $cmd; and abbr -a -- $short $cmd
+end
+
+abbr -a -- cp 'cp -v'
+abbr -a -- rd 'rm -rfv'
+abbr -a -- rm 'rm -v'
+abbr -a -- rmi 'rm -iv'
+abbr -a -- md 'mkdir -p'
+abbr -a -- mvi 'mv -iv'
+
+abbrx b bat
+abbrx cz chezmoi
+abbrx ff fastfetch
+abbrx g git
+abbrx lg lazygit
+abbrx oc opencode
+abbrx t tmux
+abbrx tg topgrade
+
+alias clrhist 'echo yes | history clear'
+
+if type -q bat
+    alias cat bat
+end
+
+if type -q chezmoi
+    abbr -a -- czp 'chezmoi apply; and exec $SHELL'
+    abbr -a -- czc 'cd "{{ .chezmoi.workingTree }}"'
+    abbr -a -- cze 'chezmoi edit'
+end
+
+if type -q git
+    abbr -a -- ga 'git add'
+    abbr -a -- gaa 'git add --all'
+    abbr -a -- gbr 'git branch'
+    abbr -a -- gbra 'git branch --all'
+    abbr -a -- gc 'git commit'
+    abbr -a -- gcm 'git commit --message'
+    abbr -a -- gl 'git pull'
+    abbr -a -- gp 'git push'
+    abbr -a -- gpf 'git push --force-with-lease'
+    abbr -a -- gpf! 'git push --force'
+    abbr -a -- gra 'git remote add'
+end
+
+# vim: ft=fish

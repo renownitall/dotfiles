@@ -1,0 +1,9 @@
+# General behavior
+[misc]
+pre_sudo = true
+cleanup = true
+run_in_tmux = true
+
+# Run before the main upgrade pass
+[pre_commands]
+"Update Mirrors" = "sudo cachyos-rate-mirrors"

@@ -1,0 +1,2 @@
+# Use the system clipboard instead of Zathura's internal register.
+set selection-clipboard clipboard
