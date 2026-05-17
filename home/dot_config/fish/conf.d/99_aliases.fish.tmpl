@@ -47,4 +47,11 @@ if type -q git
     abbr -a -- gra 'git remote add'
 end
 
+if type -q systemctl
+    if systemctl list-unit-files warp.service >/dev/null 2>&1
+        abbr -a -- warpon 'sudo systemctl enable --now warp'
+        abbr -a -- warpoff 'sudo systemctl disable --now warp'
+    end
+end
+
 # vim: ft=fish
