@@ -67,7 +67,7 @@ This is not a full-blown distro.
 - `topgrade`
 - `zellij`
 
-> [!note]
+> **Note**
 > `swaynag` is already included in the `sway` package.
 
 </details>
@@ -265,6 +265,7 @@ This setup uses my own theme called Cozy Slate, a softened dark-grey theme inspi
 - zellij
 - Neovim
 
+<br>
 <p align="center">
   <img src="./assets/palette.png" alt="Cozy Slate palette" width="578">
 </p>
