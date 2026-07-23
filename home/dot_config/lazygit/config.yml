@@ -1,0 +1,34 @@
+gui:
+  theme:
+    activeBorderColor:
+      - "#4c7899"
+      - bold
+    inactiveBorderColor:
+      - "#7a8388"
+    searchingActiveBorderColor:
+      - "#e5c07b"
+      - bold
+    optionsTextColor:
+      - "#98c379"
+    selectedLineBgColor:
+      - "#282828"
+    cherryPickedCommitBgColor:
+      - "#4c566a"
+    cherryPickedCommitFgColor:
+      - "#4c7899"
+    unstagedChangesColor:
+      - "#e06c75"
+    defaultFgColor:
+      - "#eaeaea"
+    branchFgColor:
+      - "#c678dd"
+    statusFileType:
+      - "#56b6c2"
+    commitHash:
+      - "#d19a66"
+    commitAuthor:
+      - "#98c379"
+    secondaryRegionFgColor:
+      - "#c678dd"
+    markedBaseCommitFgColor:
+      - "#e5c07b"

@@ -1,0 +1,11 @@
+[Unit]
+Description=Blueman applet
+PartOf=sway-session.target
+After=sway-session.target
+
+[Service]
+ExecStart=/usr/bin/env blueman-applet
+Restart=on-failure
+
+[Install]
+WantedBy=sway-session.target

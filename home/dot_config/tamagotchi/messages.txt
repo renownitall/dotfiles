@@ -1,0 +1,106 @@
+greeting|critical_battery|we are about to die btw. not being dramatic its just true
+greeting|critical_battery|im at like no percent rn. this is urgent actually
+greeting|critical_battery|plug in the charger or im taking us both down
+greeting|low_battery|battery kinda mid rn. just letting u know
+greeting|low_battery|we should probably find a charger soon ngl
+greeting|low_battery|getting low over here. no rush but also rush
+greeting|full_battery|fully charged. we're dangerous rn
+greeting|full_battery|100%. i could run all day but i wont promise that
+greeting|full_battery|topped off and feeling reckless tbh
+greeting|high_load|cpu is going thru it rn. what did u open
+greeting|high_load|its kinda hot in here. figuratively. well also literally
+greeting|high_load|im working so hard rn u dont even know
+greeting|late_night|its past 1am why are we like this
+greeting|late_night|u know normal ppl are asleep rn right
+greeting|late_night|we should not be here rn and yet
+greeting|morning|morning. coffee first then we talk
+greeting|morning|gm. i already forgot what day it is
+greeting|morning|oh ur up. same. lets do stuff i guess
+greeting|afternoon|afternoon. prime hours. what r we building
+greeting|afternoon|hey. u good? ok cool lets work
+greeting|afternoon|midday check in. everything still standing
+greeting|evening|evening. u wrapping up or just getting started
+greeting|evening|winding down? couldnt be me but ok
+greeting|evening|its getting late-ish. no judgment tho
+greeting|night|still here huh. ok im here too i guess
+greeting|night|night shift activated. not by choice but here we are
+greeting|night|late but not too late. we're in the sweet spot
+greeting|*|hello
+
+launcher|critical_battery|make it quick we're running on fumes
+launcher|critical_battery|u can open one thing. choose wisely
+launcher|critical_battery|dying but listening. go
+launcher|low_battery|battery mid but im still here. whatcha need
+launcher|low_battery|low power mode personality. what r we launching
+launcher|low_battery|running low. keep it light
+launcher|full_battery|full battery full attention. go ahead
+launcher|full_battery|charged up. throw anything at me
+launcher|full_battery|100%. im ready for whatever tbh
+launcher|high_load|already sweating but sure add more
+launcher|high_load|cpu busy but i can squeeze one more in
+launcher|high_load|kinda slammed rn but go ahead
+launcher|late_night|its late. what do u need at this hour
+launcher|late_night|1am app launcher. we live like this
+launcher|late_night|cant sleep? same. what r we opening
+launcher|morning|morning. what we starting with
+launcher|morning|gm. first app of the day go
+launcher|morning|early launch sequence. name it
+launcher|afternoon|afternoon. whatcha need
+launcher|afternoon|at ur service. type smth, go go go
+launcher|afternoon|ready when u are. go
+launcher|evening|one more thing before we wind down?
+launcher|evening|evening vibes. what r we running
+launcher|evening|u almost done for the day or...
+launcher|night|night mode. what do u need
+launcher|night|still here. what r we opening
+launcher|night|late night launcher. go ahead
+launcher|*|go ahead
+
+lock|critical_battery|locking but also pls plug in im literally dying
+lock|critical_battery|nap time but i might not wake up without power js
+lock|critical_battery|going dark in both ways rn. charger pls
+lock|low_battery|locking up. maybe find the charger while im out?
+lock|low_battery|naptime. dont let me die in my sleep tho
+lock|low_battery|going idle. battery situation is mid btw
+lock|late_night|finally. locking up. go to bed fr
+lock|late_night|about time. we both needed this
+lock|late_night|1am lock. shouldve been 11pm lock but ok
+lock|night|night. locking up. dont stay out too long
+lock|night|going to sleep. take ur time
+lock|night|locking screen. see u whenever
+lock|morning|morning break? ok. ill hold things down
+lock|morning|brb mode. go get coffee or whatever
+lock|morning|locking up. dont be long i get bored
+lock|afternoon|afternoon break. i got this dw
+lock|afternoon|locking screen. ill be here when u get back
+lock|afternoon|quick lock. stretching is good actually
+lock|evening|evening lock. wrapping up for the day?
+lock|evening|taking a break. fair tbh
+lock|evening|locking up. ill keep watch
+lock|full_battery|fully charged nap. living the dream honestly
+lock|full_battery|locking up at 100%. this is peak
+lock|full_battery|going idle with a full battery. luxury
+lock|high_load|oh thank god a break. locking up
+lock|high_load|finally some rest. cpu was begging
+lock|high_load|locking screen. letting things cool down
+lock|*|locking screen brb
+
+daemon_title|critical_battery|(x_x;) this is not a drill
+daemon_body|critical_battery|battery critical. plug in rn or we're done
+daemon_title|high_load|(￣ロ￣;) its so hot in here
+daemon_body|high_load|cpu is going crazy. maybe close smth?
+daemon_title|late_night|(¬_¬) its past 1am
+daemon_body|late_night|u should probably sleep. just saying
+daemon_title|*|(・_・) status update
+daemon_body|*|checking in
+
+tooltip|critical_battery|critical battery. this is bad actually
+tooltip|low_battery|battery getting low. charger soon pls
+tooltip|full_battery|fully charged. we're good
+tooltip|high_load|cpu working hard rn. its fine. probably
+tooltip|late_night|its late. we should both be asleep
+tooltip|morning|morning. new day new terminal
+tooltip|afternoon|afternoon. peak productivity hours allegedly
+tooltip|evening|evening. winding down maybe
+tooltip|night|night. still here tho
+tooltip|*|...

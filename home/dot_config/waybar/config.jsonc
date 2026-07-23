@@ -1,0 +1,73 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 26,
+  "spacing": 0,
+  "modules-left": ["sway/workspaces", "sway/mode", "custom/tamagotchi"],
+  "modules-center": ["mpris"],
+  "modules-right": ["pulseaudio", "battery", "tray", "clock"],
+
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "format": " ",
+  },
+
+  "sway/mode": {
+    "format": "<span style=\"italic\">{}</span>",
+  },
+
+  "mpris": {
+    "format": "{status_icon} {artist} - {title}",
+    "format-paused": "{status_icon} {artist} - {title} (paused)",
+    "status-icons": {
+      "playing": "<span>󰐊</span>",
+      "paused": "<span>󰏤</span>",
+    },
+    "max-length": 64,
+  },
+
+  "pulseaudio": {
+    "format": "<span>󰕾</span> {volume}%",
+    "format-muted": "<span>󰖁</span> muted",
+    "on-click": "pavucontrol",
+  },
+
+  "battery": {
+    "states": { "warning": 30, "critical": 15 },
+    "full-at": 100,
+    "format": "{icon} {capacity}%",
+    "format-charging": "<span>󱐋</span> {capacity}%",
+    "format-plugged": "<span>󰚥</span> {capacity}%",
+    "format-full": "<span>󱟦</span> {capacity}%",
+    "format-icons": [
+      "<span color='#e06c75'>󰁻</span>",
+      "<span color='#dba870'>󰁽</span>",
+      "<span color='#4c7899'>󰁿</span>",
+      "<span color='#4c7899'>󰂁</span>",
+      "<span color='#4c7899'>󰁹</span>",
+    ],
+  },
+
+  "tray": { "icon-size": 12, "spacing": 12 },
+
+  "custom/tamagotchi": {
+    "exec": "$HOME/.config/waybar/scripts/tamagotchi_status.fish",
+    "exec-on-event": false,
+    "signal": 8,
+    "return-type": "json",
+    "format": "{}",
+  },
+
+  "clock": {
+    "format": "{:%Y-%m-%d %H:%M:%S}",
+    "tooltip": true,
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "mode": "month",
+      "on-scroll": 1,
+      "format": { "today": "<span color='#4c7899'><b>{}</b></span>" },
+    },
+    "interval": 1,
+  },
+}

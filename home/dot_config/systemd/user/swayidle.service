@@ -1,0 +1,11 @@
+[Unit]
+Description=swayidle session timeout manager
+PartOf=sway-session.target
+After=sway-session.target
+
+[Service]
+ExecStart=/usr/bin/env fish %h/.config/sway/scripts/start_idle.fish
+Restart=on-failure
+
+[Install]
+WantedBy=sway-session.target

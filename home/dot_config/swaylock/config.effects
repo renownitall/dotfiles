@@ -1,0 +1,40 @@
+daemonize
+ignore-empty-password
+show-failed-attempts
+indicator
+indicator-idle-visible
+indicator-radius=120
+indicator-thickness=8
+indicator-caps-lock
+screenshots
+clock
+timestr=%R
+datestr=%a, %e %B
+font=IBM Plex Mono
+font-size=24
+ring-color=4c7899
+ring-clear-color=7a8388
+ring-ver-color=5a8bb0
+ring-wrong-color=b83030
+inside-color=28557780
+inside-clear-color=4a4a4a80
+inside-ver-color=28557780
+inside-wrong-color=6e202880
+key-hl-color=eaeaea
+bs-hl-color=e06c75
+text-color=ffffff
+text-clear-color=ffffff
+text-ver-color=ffffff
+text-wrong-color=ffffff
+text-caps-lock-color=dba870
+line-color=00000000
+line-clear-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+separator-color=00000000
+fade-in=0.5
+effect-blur=20x6
+effect-vignette=0.1:0.2
+effect-scale=3
+
+# vim: ft=conf

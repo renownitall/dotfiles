@@ -1,0 +1,6 @@
+web_client {
+    font "monospace"
+}
+
+theme "cozy_slate"
+default_mode "normal"

@@ -1,0 +1,75 @@
+# Theme: Cozy Slate
+# Revamp based on OneDark by Vitor Melo
+
+# Main bg
+theme[main_bg]="#323232"
+
+# Main text color
+# Softened from #ffffff to reduce halation on medium-dark grey
+theme[main_fg]="#eaeaea"
+
+# Title color for boxes
+theme[title]="#eaeaea"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#4c7899"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#285577"
+
+# Foreground color of selected item in processes box
+# Pure white retained: colored background needs maximum contrast
+theme[selected_fg]="#ffffff"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#9e9e9e"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#5a8bb0"
+
+# Box outline colors
+theme[cpu_box]="#9e9e9e"
+theme[mem_box]="#9e9e9e"
+theme[net_box]="#9e9e9e"
+theme[proc_box]="#9e9e9e"
+theme[div_line]="#9e9e9e"
+
+# Temperature graph colors (heat: green → yellow → red)
+theme[temp_start]="#98c379"
+theme[temp_mid]="#e5c07b"
+theme[temp_end]="#e06c75"
+
+# CPU graph colors (load: green → yellow → red)
+theme[cpu_start]="#98c379"
+theme[cpu_mid]="#e5c07b"
+theme[cpu_end]="#e06c75"
+
+# Mem/Disk used & cached meters
+# purple → orange → red
+theme[used_start]="#c678dd"
+theme[used_mid]="#d19a66"
+theme[used_end]="#e06c75"
+
+theme[cached_start]="#c678dd"
+theme[cached_mid]="#d19a66"
+theme[cached_end]="#e06c75"
+
+# Mem/Disk free & available meters
+# red → orange → purple
+theme[free_start]="#e06c75"
+theme[free_mid]="#d19a66"
+theme[free_end]="#c678dd"
+
+theme[available_start]="#e06c75"
+theme[available_mid]="#d19a66"
+theme[available_end]="#c678dd"
+
+# Download graph colors (network: cyan → blue → deep blue)
+theme[download_start]="#56b6c2"
+theme[download_mid]="#4c7899"
+theme[download_end]="#285577"
+
+# Upload graph colors (network: cyan → blue → deep blue)
+theme[upload_start]="#56b6c2"
+theme[upload_mid]="#4c7899"
+theme[upload_end]="#285577"

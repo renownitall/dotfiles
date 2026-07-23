@@ -1,0 +1,19 @@
+abbr -a md 'mkdir -p'
+abbr -a rd rmdir
+abbr -a .. 'cd ..'
+abbr -a ... 'cd ../..'
+abbr -a .... 'cd ../../..'
+
+abbr -a g git
+abbr -a lg lazygit
+abbr -a v '$EDITOR'
+abbr -a ze zellij
+
+abbr -a cz chezmoi
+abbr -a cza 'chezmoi add'
+abbr -a czc 'cd {{ .chezmoi.sourceDir }}'
+abbr -a cze 'chezmoi edit'
+abbr -a czrm 'chezmoi forget'
+abbr -a czp 'chezmoi apply && exec $SHELL'
+
+# vim: ft=fish

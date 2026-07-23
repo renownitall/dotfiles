@@ -1,0 +1,29 @@
+font=IBM Plex Mono 10
+message-padding=4
+button-padding=3
+button-border-size=0
+border-bottom-size=0
+
+# Default level
+background=#285577
+text=#ffffff
+button-background=#3d6480
+button-text=#ffffff
+border=#3d6480
+
+# Warning level
+[warning]
+background=#dba870
+text=#323232
+button-background=#c08040
+button-text=#ffffff
+border=#c08040
+
+# Error level
+[error]
+background=#e06c75
+text=#323232
+button-background=#b83030
+button-text=#ffffff
+border=#b83030
+

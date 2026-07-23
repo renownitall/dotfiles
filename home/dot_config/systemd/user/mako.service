@@ -1,0 +1,11 @@
+[Unit]
+Description=Mako notification daemon
+PartOf=sway-session.target
+After=sway-session.target
+
+[Service]
+ExecStart=/usr/bin/env mako
+Restart=on-failure
+
+[Install]
+WantedBy=sway-session.target

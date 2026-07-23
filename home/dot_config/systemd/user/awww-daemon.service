@@ -1,0 +1,11 @@
+[Unit]
+Description=awww wallpaper daemon
+PartOf=sway-session.target
+After=sway-session.target
+
+[Service]
+ExecStart=/usr/bin/env awww-daemon
+Restart=on-failure
+
+[Install]
+WantedBy=sway-session.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=Tamagotchi mood daemon
+PartOf=sway-session.target
+After=sway-session.target
+
+[Service]
+ExecStart=/usr/bin/env fish %h/.config/sway/scripts/tamagotchi_daemon.fish
+Restart=on-failure
+
+[Install]
+WantedBy=sway-session.target
