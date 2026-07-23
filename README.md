@@ -67,8 +67,7 @@ This is not a full-blown distro.
 - `topgrade`
 - `zellij`
 
-> **Note**
-> `swaynag` is already included in the `sway` package.
+> **Note:** `swaynag` is already included in the `sway` package.
 
 </details>
 
