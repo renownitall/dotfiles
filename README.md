@@ -92,6 +92,7 @@ Feel free to look around and copy anything useful.
 - `qt5ct`, `qt6ct`, `qt5-wayland`, and `qt6-wayland` for theming KeePassXC/other Qt apps on Wayland
 - `swaylock-effects`, with a plain `swaylock` fallback
 - `thunar`
+- `zathura`
 
 **Fonts & icons:**
 
@@ -141,7 +142,7 @@ paru -S --needed wayfreeze-git
 Optional:
 
 ```sh
-sudo pacman -S --needed fnm keepassxc papirus-icon-theme pnpm qt5-wayland qt5ct qt6-wayland qt6ct swaylock thunar ttf-ibm-plex ttf-ibmplex-mono-nerd zoxide
+sudo pacman -S --needed fnm keepassxc papirus-icon-theme pnpm qt5-wayland qt5ct qt6-wayland qt6ct swaylock thunar zathura ttf-ibm-plex ttf-ibmplex-mono-nerd zoxide
 ```
 
 ```sh
