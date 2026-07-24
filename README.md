@@ -2,7 +2,7 @@
 
 ###### managed with [chezmoi](https://chezmoi.io)
 
-This is the setup I daily drive on CachyOS with Sway as the centerpiece. The desktop has a small 'mood system' (you'll see). It reacts to the system's battery state, CPU load, and time of day.
+This is the setup I daily drive on CachyOS. The desktop has a small 'mood system' (you'll see). It reacts to the system's battery state, CPU load, and time of day.
 
 Feel free to look around and copy anything useful.
 
