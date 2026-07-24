@@ -114,7 +114,7 @@ paru -S --needed wayfreeze-git
 ```
 
 > [!tip]
-> If you want a prebuilt `wayfreeze-git` binary, add my package repo to `/etc/pacman.conf`:
+> If you want prebuilt `wayfreeze-git` binaries, add my package repo to `/etc/pacman.conf`:
 >
 > ```ini
 > [forge]
@@ -136,7 +136,7 @@ paru -S --needed wayfreeze-git
 > /lib/ld-linux-x86-64.so.2 --help | grep -P 'v3.*supported'
 > ```
 >
-> **If you do not see `(supported)` in the output, do not use this repository.**
+> **If you do not see `(supported)` in the output, do not use this repository** and build `wayfrezee-git` locally.
 
 Optional:
 
