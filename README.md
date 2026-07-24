@@ -8,9 +8,12 @@ The cat is elsewhere. Who knows where it went.
 
 Feel free to look around and copy anything useful.
 
+## Screenshots
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-WIP-orange?style=flat-square" alt="WIP Badge"><br><br>
   <img src="./assets/desktop.png" alt="Sway" width="720">
+  <br>
+  Sway.
 </p>
 
 ## Assumptions
