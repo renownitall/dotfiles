@@ -13,7 +13,7 @@ Feel free to look around and copy anything useful.
 <p align="center">
   <img src="./assets/desktop.png" alt="Sway" width="720">
   <br>
-  Sway.
+  <i>Sway.</i>
 </p>
 
 ## Assumptions
