@@ -263,7 +263,7 @@ The daemon is intentionally simple. It is a small state machine with opinions, n
 
 ## Theming
 
-This setup uses my own theme called Cozy Slate, a softened dark-grey theme inspired by One Dark. You'll find it across these apps:
+Everything here uses my own theme called Cozy Slate. It's a softened dark-grey theme I put together based on One Dark. You'll see it in action across these apps:
 
 - btop
 - foot
@@ -280,6 +280,8 @@ This setup uses my own theme called Cozy Slate, a softened dark-grey theme inspi
 <br>
 <p align="center">
   <img src="./assets/palette.png" alt="Cozy Slate palette" width="578">
+  <br>
+  <i>Cozy slate palette.</i>
 </p>
 
 The palette image is generated from `assets/generate_palette.py`. It embeds IBM Plex Mono into the SVG, then exports a PNG so GitHub renders it consistently.
@@ -302,7 +304,7 @@ I haven't made a universal palette file yet. If you want to change the theme, yo
 
 - `btop.conf` is managed entirely by chezmoi; changes made inside the program itself will not persist unless made in the repo.
 - The screen-locking script prefers `swaylock-effects` when available, and falls back to a plain `swaylock`-compatible config otherwise.
-- Logging out through the session menu stops `sway-session.target`, which cleans up the session services.
+- You should generally log out using `Super` + `Shift` + `e`. Using the session control helper stops `sway-session.target`, which properly cleans up the session services.
 - If a Qt6 app refuses to pick up the theme, try launching it with `QT_QPA_PLATFORMTHEME=qt6ct`.
 - If a service misbehaves, check `journalctl --user -u <service>`.
 - If Sway misbehaves, diagnose using `swaymsg -t get_tree`.
