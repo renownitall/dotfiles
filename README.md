@@ -136,7 +136,7 @@ paru -S --needed wayfreeze-git
 > /lib/ld-linux-x86-64.so.2 --help | grep -P 'v3.*supported'
 > ```
 >
-> **If you do not see `(supported)` in the output, do not use this repository** and build `wayfrezee-git` locally.
+> **If you do not see `(supported)` in the output, do not use this repository.** Build `wayfrezee-git` locally instead.
 
 Optional:
 
