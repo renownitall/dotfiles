@@ -114,7 +114,7 @@ paru -S --needed wayfreeze-git
 ```
 
 > [!tip]
-> If you want my prebuilt `wayfreeze-git` binaries, add my package repo to `/etc/pacman.conf`:
+> If you want a prebuilt `wayfreeze-git` binary, add my package repo to `/etc/pacman.conf`:
 >
 > ```ini
 > [forge]
@@ -127,6 +127,17 @@ paru -S --needed wayfreeze-git
 > ```sh
 > sudo pacman -Syu wayfreeze-git
 > ```
+>
+> [!caution]
+> This binary is compiled with `-march=x86-64-v3` optimizations. They are only compatible with modern CPUs (Intel Haswell / AMD Zen 1 and newer).
+>
+> To verify your CPU supports this, run:
+>
+> ```sh
+> /lib/ld-linux-x86-64.so.2 --help | grep -P 'v3.*supported'
+> ```
+>
+> **If you do not see `(supported)` in the output, do not use this repository.**
 
 Optional:
 
