@@ -8,11 +8,13 @@ Feel free to look around and copy anything useful.
 
 ## Screenshots
 
-<p align="center">
+<div align="center">
   <img src="./assets/desktop.png" alt="Sway" width="720">
-  <br>
-  <i>Sway.</i>
-</p>
+  <p>
+    <i>Sway.</i><br>
+    Wallpaper: <a href="https://unsplash.com/photos/flowing-river-between-tall-trees-7BjhtdogU3A">Unsplash</a>
+  </p>
+</div>
 
 ## Assumptions
 
@@ -308,5 +310,5 @@ If something looks oddly specific, it probably solved a real problem and made th
 Bonus question: Are you a cat person?
 
 <div align="center">
-  <p><small>Made with 🐈</small></p>
+  <small>Made with 🐈</small>
 </div>
