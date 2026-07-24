@@ -128,8 +128,7 @@ paru -S --needed wayfreeze-git
 > sudo pacman -Syu wayfreeze-git
 > ```
 >
-> [!caution]
-> This binary is compiled with `-march=x86-64-v3` optimizations. They are only compatible with modern CPUs (Intel Haswell / AMD Zen 1 and newer).
+> **Disclaimer:** These binaries are compiled with `-march=x86-64-v3`. They are only compatible with modern CPUs (Intel Haswell / AMD Zen 1 and newer).
 >
 > To verify your CPU supports this, run:
 >
