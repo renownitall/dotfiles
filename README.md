@@ -23,9 +23,7 @@ Feel free to look around and copy anything useful.
 - IBM Plex Mono / BlexMono Nerd Font installed
 - Papirus-Dark icons
 
-Some pieces degrade gracefully if optional tools are missing; others don't.
-
-This is not a full-blown distro.
+Whereas some pieces degrade gracefully if optional tools are missing, some others don't.
 
 ## Dependencies
 
@@ -278,8 +276,6 @@ Everything here uses my own theme called Cozy Slate. It's a softened dark-grey t
 <br>
 <p align="center">
   <img src="./assets/palette.png" alt="Cozy Slate palette" width="578">
-  <br>
-  <i>Cozy slate palette.</i>
 </p>
 
 The palette image is generated from `assets/generate_palette.py`. It embeds IBM Plex Mono into the SVG, then exports a PNG so GitHub renders it consistently.
@@ -309,9 +305,9 @@ I haven't made a universal palette file yet. If you want to change the theme, yo
 
 If something looks oddly specific, it probably solved a real problem and made the repo easier to live with.
 
-Different hoomans, different needs. Are you one of us?
-
 ---
+
+Bonus question: Are you a cat person?
 
 <div align="center">
   <p>Made with ❤️? ❌ </p>
