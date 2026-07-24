@@ -2,9 +2,7 @@
 
 ###### managed with [chezmoi](https://chezmoi.io)
 
-This is the setup I daily drive on CachyOS with Sway as the centerpiece. It is not meant to be a universal template. The desktop has a small Tamagotchi-like mood system. It reacts to battery state, CPU load, and time of day, and communicates in kaomoji.
-
-The cat is elsewhere. Who knows where it went.
+This is the setup I daily drive on CachyOS with Sway as the centerpiece. The desktop has a small 'mood system' (you'll see). It reacts to the system's battery state, CPU load, and time of day.
 
 Feel free to look around and copy anything useful.
 
