@@ -23,8 +23,6 @@ Feel free to look around and copy anything useful.
 - IBM Plex Mono / BlexMono Nerd Font installed
 - Papirus-Dark icons
 
-Whereas some pieces degrade gracefully if optional tools are missing, some others don't.
-
 ## Dependencies
 
 <details>
@@ -310,6 +308,8 @@ If something looks oddly specific, it probably solved a real problem and made th
 Bonus question: Are you a cat person?
 
 <div align="center">
+  <small>
   <p>Made with ❤️? ❌ </p>
   <p>🐈? ✅</p>
+  </small>
 </div>
