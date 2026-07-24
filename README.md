@@ -308,8 +308,5 @@ If something looks oddly specific, it probably solved a real problem and made th
 Bonus question: Are you a cat person?
 
 <div align="center">
-  <small>
-  <p>Made with ❤️? ❌ </p>
-  <p>🐈? ✅</p>
-  </small>
+  <p><small>Made with 🐈</small></p>
 </div>
