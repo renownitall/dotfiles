@@ -1,6 +1,6 @@
 # dotfiles
 
-My personal dotfiles, managed with [chezmoi](https://www.chezmoi.io/).
+###### managed with [chezmoi](https://chezmoi.io)
 
 This is the setup I daily drive on CachyOS with Sway as the centerpiece. It is not meant to be a universal template. The desktop has a small Tamagotchi-like mood system. It reacts to battery state, CPU load, and time of day, and communicates in kaomoji.
 
