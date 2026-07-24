@@ -11,8 +11,9 @@ Feel free to look around and copy anything useful.
 <div align="center">
   <img src="./assets/desktop.png" alt="Sway" width="720">
   <p>
-    <i>Sway.</i><br>
-    Wallpaper: <a href="https://unsplash.com/photos/flowing-river-between-tall-trees-7BjhtdogU3A">Unsplash</a>
+    <i>Sway.</i>
+    <br>
+    <sup><sub>Wallpaper: <a href="https://unsplash.com/photos/flowing-river-between-tall-trees-7BjhtdogU3A">Unsplash</a></sub></sup>
   </p>
 </div>
 
@@ -310,5 +311,5 @@ If something looks oddly specific, it probably solved a real problem and made th
 Bonus question: Are you a cat person?
 
 <div align="center">
-  <small>Made with 🐈</small>
+  <sup><sub>Made with 🐈</sub></sup>
 </div>
