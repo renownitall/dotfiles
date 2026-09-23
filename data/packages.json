@@ -1,0 +1,61 @@
+{
+  "pacman": {
+    "desktop": [
+      "awww", "foot", "fuzzel", "grim", "imagemagick", "jq", "libnotify",
+      "cliphist", "fzf", "dunst", "polkit-gnome", "satty", "slurp",
+      "swayidle", "waybar", "wl-clipboard", "wlsunset", "xdg-utils"
+    ],
+    "system": [
+      "blueman", "brightnessctl", "networkmanager", "network-manager-applet",
+      "syncthing", "pacman-contrib", "pavucontrol", "pipewire",
+      "pipewire-pulse", "playerctl", "mpv-mpris"
+    ],
+    "tui": [
+      "bat", "btop", "cava", "eza", "fastfetch", "fd", "git", "lazygit",
+      "neovim", "python", "rclone", "ripgrep", "uv", "zellij"
+    ],
+    "fonts": [
+      "adwaita-cursors", "noto-fonts", "ttf-sourcecodepro-nerd",
+      "adobe-source-code-pro-fonts", "papirus-icon-theme"
+    ],
+    "apps": [
+      "calibre", "fnm", "keepassxc", "pinentry", "qt5ct", "qt6-wayland",
+      "qt6ct", "thunar", "zathura", "zathura-pdf-mupdf", "zoxide"
+    ]
+  },
+  "cachyos": ["helium-browser-bin", "vesktop-bin"],
+  "aur": ["topgrade-bin"],
+  "custom": [
+    "lutgen-cli-git", "orchis-theme-4px", "swayfx-git", "wayfreeze-git",
+    "xdg-terminal-exec-git"
+  ],
+  "machines": {
+    "optiplex": [
+      "i3-wm", "kitty", "rofi", "picom", "feh", "flameshot", "redshift",
+      "xclip", "xdotool", "i3lock-color"
+    ],
+    "thinkpad": ["swaylock-effects"]
+  },
+  "notes": {
+    "awww": "wallpaper daemon",
+    "imagemagick": "lock.sh screenshot blur (magick/convert)",
+    "libnotify": "notify-send utility for scripts",
+    "dunst": "notification daemon; dunstify ships with it",
+    "syncthing": "continuous file sync; user service, starts at login",
+    "pacman-contrib": "checkupdates for the waybar updates module",
+    "mpv-mpris": "MPRIS plugin for mpv; feeds the waybar player module",
+    "git": "lazy.nvim bootstrap",
+    "rclone": "Google Drive sync for the Calibre library",
+    "uv": "Python package and venv runner",
+    "qt5ct": "Qt5 straggler (keepassxc); drop after 2.8",
+    "orchis-theme-4px": "built in forge; AUR equivalent: orchis-theme; referenced by gtk-3.0/settings.ini",
+    "lutgen-cli-git": "built in forge; AUR equivalents: lutgen-git or lutgen-bin",
+    "swayfx-git": "built in forge; wlroots 0.20 build, no repo equivalent",
+    "wayfreeze-git": "built in forge; AUR equivalents: wayfreeze-git or wayfreeze",
+    "xdg-terminal-exec-git": "built in forge; AUR equivalent: xdg-terminal-exec",
+    "topgrade-bin": "'topgrade' exists in no repo; this is the binary build",
+    "i3lock-color": "provides i3lock; conflicts with repo/i3lock",
+    "swaylock-effects": "provides swaylock; conflicts with repo/swaylock",
+    "vesktop-bin": "conflicts with vesktop"
+  }
+}
