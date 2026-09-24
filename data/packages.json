@@ -2,7 +2,7 @@
   "pacman": {
     "desktop": [
       "imagemagick", "jq", "libnotify", "cliphist", "fzf", "dunst",
-      "polkit-gnome", "waybar", "xdg-utils"
+      "polkit-gnome", "xdg-utils"
     ],
     "system": [
       "blueman", "brightnessctl", "networkmanager", "network-manager-applet",
@@ -42,8 +42,8 @@
     "libnotify": "notify-send utility for scripts",
     "dunst": "notification daemon; dunstify ships with it",
     "syncthing": "continuous file sync; user service, starts at login",
-    "pacman-contrib": "checkupdates for the waybar updates module",
-    "mpv-mpris": "MPRIS plugin for mpv; feeds the waybar player module",
+    "pacman-contrib": "checkupdates for the bar updates module (waybar, polybar)",
+    "mpv-mpris": "MPRIS plugin for mpv; feeds the bar mpris module (waybar, polybar)",
     "git": "lazy.nvim bootstrap",
     "rclone": "Google Drive sync for the Calibre library",
     "uv": "Python package and venv runner",
