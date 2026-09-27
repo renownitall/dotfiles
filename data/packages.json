@@ -10,8 +10,8 @@
       "pipewire-pulse", "playerctl", "mpv-mpris"
     ],
     "tui": [
-      "bat", "btop", "cava", "eza", "fastfetch", "fd", "git", "lazygit",
-      "neovim", "python", "rclone", "ripgrep", "uv", "zellij"
+      "bat", "btop", "cava", "eza", "fastfetch", "fd", "git", "github-cli",
+      "lazygit", "neovim", "python", "rclone", "ripgrep", "uv", "zellij"
     ],
     "fonts": [
       "adwaita-cursors", "noto-fonts", "ttf-sourcecodepro-nerd",
@@ -46,6 +46,7 @@
     "pacman-contrib": "checkupdates for the bar updates module (waybar, polybar)",
     "mpv-mpris": "MPRIS plugin for mpv; feeds the bar mpris module (waybar, polybar)",
     "git": "lazy.nvim bootstrap",
+    "github-cli": "provides gh for the git credential helper in dot_config/git/config",
     "rclone": "Google Drive sync for the Calibre library",
     "uv": "Python package and venv runner",
     "qt5ct": "Qt5 straggler (keepassxc); drop after 2.8",
